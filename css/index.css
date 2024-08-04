@@ -1,0 +1,108 @@
+
+*{
+margin: 0%;
+box-sizing: border-box;
+}
+.table{
+    float: right;
+    color: black;
+}
+td{
+    padding: 5px;
+    color: #9B9B9B;
+}
+td:hover{
+   background-color: #7AC64D;
+}
+.navbar{
+    background-color: #333333;
+    justify-items: center;
+    display: flexbox;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+}
+.navbar img{
+    padding: 10px;
+    height: 50px; 
+    size: 10px;  
+}
+.navbar a{
+    padding: 10px;
+    height: 80px;  
+}
+.btn a{
+    margin-right: 10px;
+    height: 50px;
+    align-items: center;
+    float: right;
+}
+.fieldset{
+    background-color: #F2F3F7;
+    overflow: scroll;
+    height: 550px;
+    width: 20%;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 40px;
+}
+.fieldset img{
+    border: 1px solid white;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.fieldset ul li{
+   align-items: center;
+   margin-left: 50px;
+   letter-spacing: 2px;
+   line-height: 1.8;
+}
+.fieldset h3{
+    text-align: center;
+}
+.fieldset h4{
+    text-align: center;
+}
+.fiel1{
+    background-color: #EFE7EC;
+    float: right;
+    height: 600px;
+    width: 73%;
+    margin: 6% 3% 20%;
+}
+.fiel1 img{
+    height: 600px;
+    width: 100%;
+ 
+}
+.text{
+    position:absolute;
+    top:40%;
+    color: #F2F3F7;
+    padding: 10px;
+}
+.text h1{
+    font-size: 60px;
+    color: black;
+    /* text-align: center; */
+
+}
+.text p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1;
+    width: 90%;
+}
+#cv{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+}
